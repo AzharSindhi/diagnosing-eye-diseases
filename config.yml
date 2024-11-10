@@ -1,0 +1,27 @@
+data:
+  path: "./dataset/erg_data.xlsx"
+  signal_type: "Maximum 2.0 ERG Response"
+  train_columns:
+    [
+      "a-wave latency (la)",
+      "a-wave amplitude (a)",
+      "b-wave latency (lb)",
+      "b-wave amplitude (b)",
+    ]
+  target_column: "Diagnosis"
+  traditional_columns:
+    [
+      "a-wave latency (la)",
+      "a-wave amplitude (a)",
+      "b-wave latency (lb)",
+      "b-wave amplitude (b)",
+    ]
+  test_ratio: 0.15
+
+model:
+  save_path: "./saved_models"
+  kfolds: 10
+
+experiments:
+  num_shapelets: [5, 10, 15]
+  stft_window_sizes: [5, 10, 15]
