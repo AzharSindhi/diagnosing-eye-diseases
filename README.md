@@ -1,7 +1,7 @@
 # Analysis of Electrophysiological signals for diagnosing eye diseases using Machine Learning
 
 ## Motivation
-This repository provides the code for the analysis of Electroretinogram signals. We are given the dataset of patients belonging to two categories: healthy and non-healthy. The goal is to learn a robust classification model for this dataset. We have tried two feature extraction methods namely shapelets and Short Time Fourier Transform (STFT) which improved the results than using only the traditional features. For more details please read the report here: https://drive.google.com/file/d/1cooYOyhQzE1-Mn8AT7r4VeQJMMh07Uh4/view?usp=sharing.
+This repository provides the code for the analysis of Electroretinogram signals. We are given the dataset of patients belonging to two categories: healthy and non-healthy. The goal is to learn a robust classification model for this dataset. We have tried two feature extraction methods namely shapelets and Short Time Fourier Transform (STFT) which improved the results than using only the traditional features. For more details please read the report here:https://drive.google.com/file/d/1HGbIY9QDuZ6HKHi9Etsr7uP3ez9dx07n/view?usp=sharing.
 
 ## Installation
 You don't need any installation assuming you have Python virtual environment or Anaconda.
