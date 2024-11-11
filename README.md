@@ -8,7 +8,7 @@ You don't need any installation assuming you have Python virtual environment or 
 
 
 ### Clone
-Clone this repo to your local machine using `git clone https://mad-srv.informatik.uni-erlangen.de/MadLab/industry-4.0/seminar-i4.0/ss23/diagnosing-eye-diseases.git `
+Clone this repo to your local machine using `git clone https://github.com/AzharSindhi/diagnosing-eye-diseases.git `
 
 ### Setup
 Create the anaconda environment with python>=3.9
